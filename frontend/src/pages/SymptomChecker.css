@@ -1,0 +1,344 @@
+.symptom-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.symptom-step-card,
+.symptom-result-main,
+.symptom-chart-card,
+.symptom-prediction-card,
+.symptom-side-card,
+.symptom-comparison-card,
+.symptom-overall-change-card {
+  background: #ffffff;
+  border: 1px solid #dbe3ea;
+  border-radius: 18px;
+  box-shadow: 0 10px 24px rgba(10, 29, 79, 0.08);
+}
+
+.symptom-step-card {
+  padding: 24px;
+}
+
+.symptom-step-top {
+  margin-bottom: 16px;
+}
+
+.symptom-step-label {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: #166534;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.symptom-step-title,
+.symptom-result-title {
+  margin: 0 0 14px;
+  color: #0a1d4f;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: var(--font-display);
+}
+
+.symptom-step-body {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.symptom-option-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.symptom-option-grid.three-col {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.symptom-option-btn {
+  border: 1px solid #d7dee7;
+  background: #f8fafc;
+  color: #0f172a;
+  min-height: 56px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  font-weight: 600;
+  text-align: left;
+  transition: 0.25s ease;
+}
+
+.symptom-option-btn:hover {
+  border-color: #166534;
+  background: #effaf2;
+}
+
+.symptom-option-btn.active {
+  border-color: #0a1d4f;
+  background: linear-gradient(135deg, #0a1d4f, #166534);
+  color: #ffffff;
+}
+
+.symptom-step-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.symptom-result-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.symptom-result-main {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.symptom-result-side {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.symptom-result-hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
+  padding: 22px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(10, 29, 79, 0.06), rgba(22, 101, 52, 0.08));
+  border: 1px solid rgba(10, 29, 79, 0.12);
+}
+
+.risk-low {
+  border-left: 6px solid #22c55e;
+}
+
+.risk-moderate {
+  border-left: 6px solid #f59e0b;
+}
+
+.risk-high {
+  border-left: 6px solid #ef4444;
+}
+
+.symptom-result-text,
+.symptom-card-subtitle,
+.symptom-condition-label {
+  margin: 0;
+  color: #475569;
+  line-height: 1.7;
+}
+
+.symptom-chart-card,
+.symptom-prediction-card,
+.symptom-side-card,
+.symptom-comparison-card {
+  padding: 20px;
+}
+
+.symptom-card-title {
+  margin: 0 0 8px;
+  color: #0a1d4f;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.symptom-chart-wrapper {
+  width: 100%;
+  height: 320px;
+  margin-top: 12px;
+}
+
+.symptom-prediction-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.symptom-prediction-card.highlight-main {
+  border-left: 6px solid #2b7a78;
+  background: linear-gradient(to right, #f0fbfb, #ffffff);
+}
+
+.symptom-prediction-card.secondary-card {
+  border-left: 4px solid #d1d5db;
+}
+
+.symptom-prediction-card:hover {
+  transform: translateY(-2px);
+  transition: 0.2s ease;
+}
+
+.symptom-prediction-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.symptom-probability-pill {
+  min-width: 74px;
+  text-align: center;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(10, 29, 79, 0.08);
+  color: #0a1d4f;
+  font-weight: 700;
+}
+
+.symptom-condition-block {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.symptom-condition-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.symptom-condition-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  background: #eef5ff;
+  color: #0a1d4f;
+  border: 1px solid #d7e5fb;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.symptom-full-btn {
+  width: 100%;
+}
+
+.symptom-side-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.symptom-warning-card {
+  border-left: 5px solid #f59e0b;
+  background: #fffaf0;
+}
+
+.symptom-danger-card {
+  border-left: 5px solid #ef4444;
+  background: #fff5f5;
+}
+
+.symptom-comparison-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.symptom-comparison-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.symptom-comparison-box {
+  background: #fbfdff;
+  border: 1px solid #ebf1f7;
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.symptom-comparison-label {
+  margin: 0 0 8px;
+  color: #64748b;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.symptom-comparison-label small {
+  color: #94a3b8;
+  font-weight: 600;
+}
+
+.symptom-comparison-value {
+  margin: 0;
+  color: #0a1d4f;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.symptom-comparison-chart-wrap {
+  width: 100%;
+  height: 280px;
+}
+
+.symptom-comparison-note {
+  padding: 16px;
+  border-radius: 14px;
+  background: #f8fbff;
+  border: 1px solid #e8eef6;
+}
+
+.symptom-comparison-note p {
+  margin: 0;
+  color: #475569;
+  line-height: 1.7;
+}
+
+.symptom-overall-change-card {
+  padding: 18px;
+  border-left: 5px solid #2563eb;
+  background: linear-gradient(135deg, #f8fbff 0%, #ffffff 100%);
+}
+
+.symptom-overall-change-title {
+  margin: 0 0 10px;
+  color: #0a1d4f;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+@media (max-width: 992px) {
+  .symptom-result-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .symptom-option-grid,
+  .symptom-option-grid.three-col,
+  .symptom-comparison-summary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .symptom-step-title,
+  .symptom-result-title {
+    font-size: 24px;
+  }
+
+  .symptom-result-hero,
+  .symptom-prediction-top,
+  .symptom-step-actions,
+  .symptom-comparison-top {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .symptom-step-actions button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,138 @@
+.upload-page {
+  display: grid;
+  gap: 20px;
+}
+
+.upload-header-card,
+.upload-card {
+  background: white;
+  border: 1px solid rgba(219, 227, 238, 0.85);
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: var(--shadow-soft);
+}
+
+.upload-header-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.upload-eyebrow {
+  margin: 0 0 8px;
+  color: var(--forest-mid);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.upload-title {
+  margin: 0 0 10px;
+  color: var(--navy);
+  font-size: 28px;
+  font-family: var(--font-display);
+}
+
+.upload-subtitle {
+  margin: 0;
+  color: var(--gray-500);
+  line-height: 1.7;
+  max-width: 760px;
+}
+
+.upload-layout {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 20px;
+}
+
+.upload-main-column,
+.upload-side-column {
+  display: grid;
+  gap: 20px;
+}
+
+.upload-section-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.upload-section-title {
+  margin: 0 0 8px;
+  color: var(--navy);
+  font-size: 22px;
+}
+
+.upload-section-subtitle {
+  margin: 0;
+  color: var(--gray-500);
+  line-height: 1.7;
+}
+
+.upload-message-wrap {
+  min-height: 10px;
+}
+
+.lab-entry-stack {
+  display: grid;
+  gap: 16px;
+}
+
+.lab-entry-card {
+  background: #fbfdff;
+  border: 1px solid #ebf1f7;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.lab-entry-actions {
+  margin-top: 14px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.notification-stack {
+  display: grid;
+  gap: 14px;
+}
+
+.notification-card {
+  background: #fbfdff;
+  border: 1px solid #ebf1f7;
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.notification-title {
+  display: block;
+  color: var(--navy);
+  margin-bottom: 6px;
+}
+
+.notification-text {
+  margin: 0 0 8px;
+  color: var(--gray-500);
+  line-height: 1.7;
+}
+
+.notification-date {
+  color: var(--gray-500);
+}
+
+.upload-help-list {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--gray-500);
+  line-height: 1.9;
+}
+
+@media (max-width: 950px) {
+  .upload-layout {
+    grid-template-columns: 1fr;
+  }
+}

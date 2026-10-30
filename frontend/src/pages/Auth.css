@@ -1,0 +1,251 @@
+/* Styles the full authentication page background and centers the content */
+.auth-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #eef4ff 0%, #eef8f1 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 20px;
+}
+
+/* Creates the main two-column authentication layout container */
+.auth-shell {
+  width: 100%;
+  max-width: 1280px;
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  background: white;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 24px 60px rgba(10, 29, 79, 0.12);
+  border: 1px solid rgba(219, 227, 238, 0.8);
+}
+
+/* Styles the left branding and feature summary panel */
+.auth-left {
+  background: linear-gradient(135deg, #0a1d4f 0%, #14532d 100%);
+  color: white;
+  padding: 56px 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Styles the main heading on the left panel */
+.auth-left h1 {
+  margin: 0 0 18px;
+  font-size: 42px;
+  line-height: 1.15;
+  font-family: var(--font-display);
+}
+
+/* Styles the descriptive paragraph on the left panel */
+.auth-left p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.88);
+  line-height: 1.8;
+}
+
+/* Styles the ClinAura brand badge */
+.auth-brand-badge {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Creates spacing for the feature list shown on the left panel */
+.auth-feature-list {
+  margin-top: 28px;
+  display: grid;
+  gap: 14px;
+}
+
+/* Styles each feature row shown on the left panel */
+.auth-feature-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+/* Styles the circular indicator used in feature rows */
+.auth-feature-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+
+/* Styles the right side container that holds the form card */
+.auth-right {
+  padding: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+}
+
+/* Styles the main login or registration card */
+.auth-card {
+  width: 100%;
+  max-width: 560px;
+}
+
+/* Styles the form title inside the card */
+.auth-card h2 {
+  margin: 0 0 10px;
+  font-size: 32px;
+  color: var(--navy);
+  font-family: var(--font-display);
+}
+
+/* Styles the supporting text below the form title */
+.auth-subtext {
+  margin: 0 0 24px;
+  color: var(--gray-500);
+  line-height: 1.7;
+}
+
+/* Styles validation and error messages in authentication pages */
+.auth-message {
+  margin-top: 16px;
+  margin-bottom: 4px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  background: #fee2e2;
+  color: #991b1b;
+  font-weight: 600;
+}
+
+/* Styles the button row used for form actions */
+.auth-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+/* Ensures action buttons have a minimum width for visual consistency */
+.auth-actions button {
+  min-width: 120px;
+}
+
+/* Styles the quick demo login panel used for viva access */
+.demo-login-panel {
+  margin-top: 28px;
+  padding: 20px;
+  border-radius: 16px;
+  background: #f8fbff;
+  border: 1px solid #dbe3ee;
+}
+
+/* Styles the quick demo section heading */
+.demo-login-header h3 {
+  margin: 0 0 6px;
+  font-size: 20px;
+  color: var(--navy);
+  font-family: var(--font-display);
+}
+
+/* Styles the quick demo explanatory text */
+.demo-login-header p {
+  margin: 0 0 16px;
+  color: var(--gray-500);
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+/* Arranges quick demo access groups vertically */
+.demo-login-groups {
+  display: grid;
+  gap: 16px;
+}
+
+/* Styles each quick demo user group */
+.demo-login-group {
+  display: grid;
+  gap: 10px;
+}
+
+/* Styles group labels such as Admin, Doctors, and Patients */
+.demo-login-group-title {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gray-600);
+}
+
+/* Arranges demo login buttons in a flexible row */
+.demo-login-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* Styles each quick demo login button */
+.demo-login-btn {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 1px solid #dbe3ee;
+  background: white;
+  color: var(--navy);
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+/* Adds hover effect to quick demo login buttons */
+.demo-login-btn:hover {
+  background: #eef4ff;
+  border-color: #b9cbe3;
+  transform: translateY(-1px);
+}
+
+/* Styles the note shown below demo login buttons */
+.demo-login-note {
+  margin-top: 16px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--gray-500);
+}
+
+/* Adjusts the outer register layout width */
+.register-shell {
+  max-width: 1240px;
+}
+
+/* Adjusts the inner register card width */
+.register-card {
+  max-width: 520px;
+}
+
+/* Makes an element span across the full grid width */
+.full-width {
+  grid-column: 1 / -1;
+}
+
+/* Responsive adjustments for tablets and smaller screens */
+@media (max-width: 900px) {
+  .auth-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .auth-left {
+    padding: 40px 28px;
+  }
+
+  .auth-left h1 {
+    font-size: 32px;
+  }
+
+  .auth-right {
+    padding: 28px;
+  }
+}

@@ -1,0 +1,94 @@
+.admin-home-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.admin-hero-card {
+  grid-column: span 6;
+  background: linear-gradient(135deg, #0a1d4f 0%, #14532d 100%);
+  color: white;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 18px 40px rgba(10, 29, 79, 0.14);
+}
+
+.admin-summary-card {
+  grid-column: span 2;
+  background: white;
+  border: 1px solid rgba(219, 227, 238, 0.85);
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: var(--shadow-soft);
+}
+
+.admin-card-label {
+  margin: 0 0 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.admin-summary-card .admin-card-label {
+  color: var(--gray-500);
+}
+
+.admin-card-title {
+  margin: 0 0 10px;
+  font-size: 22px;
+  color: inherit;
+}
+
+.admin-summary-card .admin-card-title {
+  color: var(--navy);
+}
+
+.admin-card-text {
+  margin: 0;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.admin-summary-card .admin-card-text {
+  color: var(--gray-500);
+}
+
+.admin-approval-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+
+.admin-form-card {
+  background: white;
+  border: 1px solid rgba(219, 227, 238, 0.85);
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: var(--shadow-soft);
+}
+
+.admin-form-actions {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.consent-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.consent-checkbox-label input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+
+@media (max-width: 1000px) {
+  .admin-hero-card,
+  .admin-summary-card {
+    grid-column: span 12;
+  }
+}
