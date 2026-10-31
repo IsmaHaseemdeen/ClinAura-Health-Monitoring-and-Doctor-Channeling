@@ -1,0 +1,601 @@
+symptoms,severity_level,duration,smoking,physical_activity,sleep_quality,known_condition,target_category
+muscle cramps body pain tiredness,moderate,7+ days,no,active,average,none,musculoskeletal
+itching hives skin irritation,severe,3-7 days,no,moderate,average,asthma,skin_allergy
+lower stomach pain urinary discomfort,severe,7+ days,no,moderate,poor,allergy,respiratory_ent
+body aches fever dehydration,severe,3-7 days,no,active,good,none,general_constitutional
+lower abdominal pain urinary discomfort,severe,7+ days,yes,low,average,allergy,urinary_reproductive
+restlessness panic feelings low mood,severe,7+ days,yes,low,average,none,mental_sleep_stress
+loss of appetite nausea low energy,mild,3-7 days,yes,low,good,allergy,gastrointestinal
+lower stomach pain urinary discomfort,mild,3-7 days,no,moderate,good,allergy,urinary_reproductive
+skin rash itching redness,mild,1-3 days,yes,low,good,none,skin_allergy
+neck pain shoulder pain stiffness,moderate,3-7 days,yes,moderate,good,none,musculoskeletal
+diarrhea abdominal cramps weakness,severe,7+ days,yes,active,average,hypertension,gastrointestinal
+dizziness fainting weakness,mild,1-3 days,yes,low,poor,diabetes,neurological_headache
+neck pain shoulder pain body stiffness,moderate,7+ days,no,low,average,none,musculoskeletal
+back pain stiffness limited movement,moderate,7+ days,yes,low,good,none,musculoskeletal
+skin inflammation rash itching,mild,7+ days,no,active,average,asthma,skin_allergy
+stress anxiety poor sleep,severe,7+ days,yes,moderate,poor,diabetes,mental_sleep_stress
+skin rash itching redness,moderate,3-7 days,no,low,poor,hypertension,skin_allergy
+headache poor balance confusion,severe,3-7 days,yes,low,good,diabetes,neurological_headache
+pelvic discomfort frequent urination,severe,3-7 days,yes,low,poor,none,urinary_reproductive
+frequent urge burning when passing urine high fever,moderate,7+ days,yes,moderate,poor,diabetes,urinary_reproductive
+breathing difficulty wheezing cough,mild,7+ days,no,low,average,allergy,respiratory_ent
+vomiting dehydration stomach pain,severe,1-3 days,no,moderate,poor,diabetes,gastrointestinal
+diarrhea abdominal cramps weakness,moderate,7+ days,yes,moderate,poor,none,gastrointestinal
+headache poor balance confusion,mild,1-3 days,no,active,average,asthma,neurological_headache
+dry skin irritation redness,moderate,3-7 days,no,moderate,average,diabetes,skin_allergy
+vomiting dehydration stomach pain,moderate,7+ days,no,moderate,good,diabetes,gastrointestinal
+fever weakness body aches,moderate,7+ days,no,low,poor,diabetes,general_constitutional
+back pain urinary discomfort high fever,mild,3-7 days,yes,moderate,good,hypertension,urinary_reproductive
+fever headache body aches,moderate,3-7 days,yes,low,poor,asthma,general_constitutional
+chest tightness cough wheezing,severe,7+ days,no,active,poor,none,respiratory_ent
+migraine light sensitivity nausea,mild,7+ days,no,moderate,average,asthma,neurological_headache
+migraine light sensitivity nausea,severe,3-7 days,no,moderate,good,none,neurological_headache
+fatigue headache poor sleep,moderate,7+ days,no,moderate,good,allergy,skin_allergy
+back pain muscle cramps weakness,mild,1-3 days,no,moderate,average,diabetes,musculoskeletal
+fever headache body aches,moderate,3-7 days,yes,moderate,poor,allergy,respiratory_ent
+chronic headache insomnia low energy,mild,7+ days,no,low,average,hypertension,neurological_headache
+dizziness weakness poor sleep,severe,1-3 days,no,moderate,poor,diabetes,urinary_reproductive
+itching hives skin irritation,moderate,1-3 days,no,active,poor,diabetes,skin_allergy
+constipation abdominal discomfort,mild,3-7 days,no,low,poor,asthma,gastrointestinal
+itching hives skin irritation,severe,1-3 days,no,moderate,good,asthma,skin_allergy
+weakness low energy poor sleep,moderate,1-3 days,no,low,poor,allergy,general_constitutional
+body aches high fever dehydration,severe,3-7 days,no,low,good,diabetes,general_constitutional
+chills sweating body aches,severe,3-7 days,yes,low,average,asthma,general_constitutional
+stress panic feelings poor sleep,severe,3-7 days,no,moderate,good,none,mental_sleep_stress
+fever weakness body aches,severe,1-3 days,yes,active,good,none,general_constitutional
+frequent urge burning when passing urine fever,mild,3-7 days,yes,moderate,good,diabetes,urinary_reproductive
+urinary discomfort lower stomach pain,severe,1-3 days,no,moderate,good,diabetes,urinary_reproductive
+heartburn bloating stomach discomfort,severe,3-7 days,no,low,good,none,gastrointestinal
+joint pain swelling trouble moving,mild,7+ days,yes,low,good,diabetes,musculoskeletal
+loss of appetite nausea low energy,mild,1-3 days,no,moderate,average,hypertension,gastrointestinal
+chest tightness cough wheezing,severe,1-3 days,yes,low,average,hypertension,respiratory_ent
+heartburn bloating stomach discomfort,mild,1-3 days,yes,active,average,none,gastrointestinal
+chest tightness cough wheezing,moderate,7+ days,no,moderate,average,none,respiratory_ent
+high fever severe low energy,severe,7+ days,yes,low,poor,asthma,general_constitutional
+joint pain swelling trouble moving,moderate,7+ days,no,low,poor,diabetes,musculoskeletal
+headache poor balance confusion,severe,7+ days,no,low,poor,diabetes,neurological_headache
+back pain muscle cramps weakness,severe,7+ days,yes,low,average,asthma,musculoskeletal
+stress chest tightness insomnia,severe,3-7 days,yes,low,poor,hypertension,neurological_headache
+urinary discomfort lower stomach pain,severe,1-3 days,no,moderate,good,diabetes,urinary_reproductive
+sneezing blocked nose itchy throat,severe,3-7 days,yes,active,good,asthma,respiratory_ent
+weakness low energy insomnia,moderate,1-3 days,yes,low,good,hypertension,general_constitutional
+dry skin irritation redness,moderate,1-3 days,no,active,average,none,skin_allergy
+urinary discomfort lower abdominal pain,moderate,1-3 days,no,active,average,allergy,urinary_reproductive
+dizziness weakness poor sleep,mild,3-7 days,yes,low,average,diabetes,neurological_headache
+headache poor balance confusion,mild,1-3 days,yes,moderate,good,hypertension,neurological_headache
+dizziness fainting weakness,severe,7+ days,no,moderate,good,allergy,neurological_headache
+skin inflammation rash itching,mild,1-3 days,no,moderate,average,hypertension,skin_allergy
+neck pain shoulder pain body stiffness,severe,1-3 days,no,low,average,hypertension,musculoskeletal
+skin inflammation rash itching,mild,1-3 days,yes,moderate,good,allergy,skin_allergy
+weakness low energy insomnia,moderate,1-3 days,yes,moderate,good,asthma,general_constitutional
+shoulder pain body stiffness,mild,3-7 days,yes,moderate,good,asthma,musculoskeletal
+stomach pain nausea vomiting,mild,1-3 days,no,moderate,average,diabetes,gastrointestinal
+back pain urinary discomfort fever,severe,3-7 days,yes,low,good,hypertension,urinary_reproductive
+urgency to pass urine burning when passing urine fever,mild,7+ days,yes,moderate,poor,allergy,urinary_reproductive
+stress fatigue insomnia,moderate,7+ days,yes,moderate,poor,diabetes,mental_sleep_stress
+constipation abdominal discomfort,severe,7+ days,yes,moderate,average,allergy,gastrointestinal
+fever weakness body aches,moderate,7+ days,yes,moderate,average,allergy,general_constitutional
+anxiety insomnia dizziness,severe,7+ days,no,moderate,poor,asthma,mental_sleep_stress
+dizziness weakness poor sleep,mild,1-3 days,yes,active,good,allergy,skin_allergy
+cough sore throat blocked nose,moderate,3-7 days,yes,active,good,asthma,respiratory_ent
+panic feelings insomnia dizziness,mild,7+ days,yes,moderate,good,diabetes,urinary_reproductive
+stress panic feelings insomnia,severe,1-3 days,yes,active,poor,diabetes,mental_sleep_stress
+dizziness fainting weakness,mild,1-3 days,no,active,poor,allergy,neurological_headache
+fatigue low energy weakness,severe,1-3 days,yes,low,poor,none,general_constitutional
+low energy low energy weakness,mild,3-7 days,yes,low,good,diabetes,general_constitutional
+back pain urinary discomfort high fever,moderate,3-7 days,no,low,poor,none,urinary_reproductive
+vomiting dehydration abdominal pain,mild,1-3 days,yes,moderate,poor,hypertension,gastrointestinal
+chills sweating body aches,severe,1-3 days,yes,active,good,asthma,general_constitutional
+swelling redness rash,moderate,3-7 days,no,moderate,good,none,skin_allergy
+headache dizziness blurred vision,moderate,1-3 days,yes,moderate,good,allergy,neurological_headache
+insomnia tiredness headache,mild,7+ days,no,low,good,allergy,mental_sleep_stress
+headache dizziness blurred vision,severe,3-7 days,yes,active,good,hypertension,neurological_headache
+back pain stiffness limited movement,mild,3-7 days,yes,active,poor,none,musculoskeletal
+fatigue headache poor sleep,moderate,1-3 days,yes,active,poor,none,musculoskeletal
+migraine light sensitivity nausea,moderate,3-7 days,no,moderate,good,allergy,neurological_headache
+pelvic discomfort frequent urination,moderate,7+ days,yes,active,poor,diabetes,urinary_reproductive
+burning urination frequent urination,mild,7+ days,no,active,good,diabetes,urinary_reproductive
+vomiting dehydration stomach pain,moderate,3-7 days,yes,low,good,hypertension,gastrointestinal
+weakness low energy insomnia,moderate,1-3 days,yes,moderate,average,none,general_constitutional
+itching hives skin irritation,severe,3-7 days,no,low,poor,asthma,skin_allergy
+stress panic feelings insomnia,mild,3-7 days,yes,active,poor,hypertension,mental_sleep_stress
+shoulder pain body stiffness,moderate,3-7 days,yes,moderate,average,diabetes,musculoskeletal
+loss of appetite nausea tiredness,moderate,7+ days,yes,low,poor,allergy,gastrointestinal
+low mood fatigue restlessness,moderate,7+ days,yes,moderate,average,diabetes,mental_sleep_stress
+hives swelling itching,moderate,1-3 days,yes,moderate,good,diabetes,skin_allergy
+breathing difficulty wheezing cough,moderate,1-3 days,yes,active,good,hypertension,respiratory_ent
+restlessness panic feelings low mood,severe,7+ days,no,active,average,asthma,mental_sleep_stress
+urinary discomfort lower abdominal pain,mild,3-7 days,yes,active,good,asthma,urinary_reproductive
+weakness low energy poor sleep,moderate,3-7 days,no,low,average,hypertension,general_constitutional
+skin rash itching redness,mild,7+ days,no,active,good,allergy,skin_allergy
+diarrhea abdominal cramps weakness,mild,7+ days,yes,low,poor,hypertension,gastrointestinal
+dry skin irritation redness,moderate,7+ days,no,moderate,good,asthma,skin_allergy
+low mood tiredness restlessness,severe,7+ days,yes,low,good,none,mental_sleep_stress
+heartburn bloating stomach discomfort,severe,3-7 days,no,moderate,average,none,gastrointestinal
+itching hives skin irritation,severe,7+ days,no,active,average,allergy,skin_allergy
+joint pain swelling trouble moving,moderate,1-3 days,no,moderate,average,none,musculoskeletal
+sinus pressure headache throat pain,moderate,1-3 days,yes,low,average,hypertension,respiratory_ent
+sinus pressure headache throat pain,severe,3-7 days,yes,active,good,none,respiratory_ent
+muscle cramps body pain low energy,severe,1-3 days,yes,active,average,asthma,musculoskeletal
+diarrhea abdominal cramps weakness,moderate,7+ days,yes,active,poor,allergy,gastrointestinal
+high fever cough body aches,severe,1-3 days,no,moderate,average,hypertension,respiratory_ent
+constipation abdominal discomfort,mild,1-3 days,no,low,good,hypertension,gastrointestinal
+back pain urinary discomfort fever,mild,1-3 days,yes,moderate,average,allergy,urinary_reproductive
+insomnia low energy headache,moderate,3-7 days,yes,low,average,diabetes,mental_sleep_stress
+dizziness weakness poor sleep,mild,3-7 days,yes,moderate,average,asthma,mental_sleep_stress
+itching hives skin irritation,severe,1-3 days,yes,moderate,average,hypertension,skin_allergy
+stress chest tightness insomnia,severe,1-3 days,no,active,average,none,mental_sleep_stress
+loss of appetite nausea tiredness,severe,3-7 days,no,active,poor,asthma,gastrointestinal
+loss of appetite nausea low energy,mild,3-7 days,yes,moderate,good,hypertension,gastrointestinal
+muscle cramps body pain fatigue,moderate,7+ days,yes,moderate,good,hypertension,musculoskeletal
+burning when passing urine frequent urination,mild,3-7 days,no,moderate,poor,allergy,urinary_reproductive
+shoulder pain body stiffness,severe,3-7 days,yes,active,poor,allergy,musculoskeletal
+skin inflammation rash itching,severe,7+ days,yes,moderate,good,asthma,skin_allergy
+constipation abdominal discomfort,moderate,7+ days,no,active,average,asthma,gastrointestinal
+headache poor balance confusion,severe,7+ days,yes,low,average,asthma,neurological_headache
+sinus pressure headache throat pain,moderate,7+ days,no,active,average,allergy,neurological_headache
+high fever severe low energy,mild,1-3 days,no,moderate,poor,allergy,general_constitutional
+restlessness panic feelings low mood,moderate,7+ days,no,low,average,diabetes,mental_sleep_stress
+heartburn bloating stomach discomfort,mild,7+ days,no,moderate,average,diabetes,gastrointestinal
+headache poor balance confusion,moderate,7+ days,yes,active,poor,none,neurological_headache
+joint pain swelling trouble moving,severe,1-3 days,yes,moderate,poor,allergy,musculoskeletal
+back pain body stiffness limited movement,severe,3-7 days,no,low,good,allergy,musculoskeletal
+fever headache body aches,mild,3-7 days,yes,active,good,diabetes,musculoskeletal
+pelvic discomfort frequent urination,severe,1-3 days,no,moderate,good,hypertension,urinary_reproductive
+back pain muscle cramps weakness,mild,3-7 days,yes,active,average,allergy,respiratory_ent
+chronic headache insomnia tiredness,severe,1-3 days,yes,moderate,poor,allergy,neurological_headache
+panic feelings poor sleep dizziness,mild,7+ days,yes,active,good,asthma,mental_sleep_stress
+chronic headache insomnia tiredness,severe,1-3 days,no,moderate,good,allergy,neurological_headache
+dizziness weakness poor sleep,moderate,1-3 days,no,active,average,diabetes,skin_allergy
+cough sore throat runny nose,severe,1-3 days,yes,active,average,asthma,respiratory_ent
+back pain muscle cramps weakness,severe,1-3 days,yes,active,good,diabetes,musculoskeletal
+sneezing runny nose itchy throat,moderate,1-3 days,no,active,average,allergy,respiratory_ent
+back pain muscle cramps weakness,severe,1-3 days,no,moderate,good,none,musculoskeletal
+restlessness panic feelings low mood,moderate,7+ days,no,low,average,none,mental_sleep_stress
+abdominal pain nausea vomiting,mild,7+ days,yes,low,good,allergy,gastrointestinal
+sinus pressure headache throat pain,moderate,3-7 days,no,low,average,hypertension,respiratory_ent
+dizziness fainting weakness,moderate,3-7 days,yes,active,good,none,neurological_headache
+heartburn bloating stomach discomfort,severe,7+ days,yes,active,good,hypertension,gastrointestinal
+headache poor balance confusion,severe,1-3 days,yes,moderate,poor,asthma,neurological_headache
+urinary discomfort lower abdominal pain,mild,7+ days,yes,moderate,good,none,urinary_reproductive
+body aches fever dehydration,moderate,7+ days,no,active,poor,none,general_constitutional
+migraine light sensitivity nausea,severe,3-7 days,yes,active,average,diabetes,neurological_headache
+headache dizziness blurred vision,severe,7+ days,yes,active,average,hypertension,neurological_headache
+light sensitivity headache insomnia,moderate,7+ days,no,moderate,good,asthma,neurological_headache
+dry skin irritation redness,mild,1-3 days,no,low,poor,asthma,skin_allergy
+cough throat pain runny nose,moderate,7+ days,yes,active,good,asthma,respiratory_ent
+dizziness weakness poor sleep,mild,1-3 days,no,low,poor,asthma,general_constitutional
+swelling redness rash,moderate,7+ days,yes,active,poor,diabetes,skin_allergy
+neck pain shoulder pain body stiffness,severe,7+ days,yes,moderate,poor,allergy,musculoskeletal
+high fever weakness body aches,severe,3-7 days,no,low,good,asthma,general_constitutional
+loss of appetite nausea tiredness,mild,1-3 days,no,low,poor,diabetes,gastrointestinal
+low mood fatigue restlessness,severe,1-3 days,no,active,good,diabetes,mental_sleep_stress
+cough sore throat blocked nose,moderate,1-3 days,no,active,average,asthma,respiratory_ent
+shoulder pain body stiffness,severe,7+ days,yes,low,good,allergy,musculoskeletal
+light sensitivity headache insomnia,severe,3-7 days,no,low,average,hypertension,neurological_headache
+abdominal pain nausea vomiting,mild,3-7 days,no,moderate,good,hypertension,gastrointestinal
+dizziness weakness poor sleep,mild,3-7 days,no,moderate,good,none,musculoskeletal
+panic feelings poor sleep dizziness,mild,7+ days,no,active,poor,none,mental_sleep_stress
+stress low energy insomnia,moderate,7+ days,no,moderate,average,asthma,mental_sleep_stress
+fever weakness body aches,moderate,7+ days,no,active,poor,diabetes,general_constitutional
+back pain stiffness limited movement,moderate,7+ days,no,low,average,none,musculoskeletal
+dry skin irritation redness,moderate,3-7 days,yes,moderate,poor,diabetes,skin_allergy
+light sensitivity headache poor sleep,moderate,1-3 days,yes,active,average,diabetes,neurological_headache
+low mood tiredness restlessness,mild,1-3 days,yes,moderate,poor,asthma,mental_sleep_stress
+sinus pressure headache sore throat,moderate,1-3 days,yes,moderate,good,none,respiratory_ent
+low mood low energy restlessness,severe,7+ days,yes,active,poor,none,mental_sleep_stress
+restlessness panic feelings low mood,moderate,3-7 days,no,active,good,allergy,mental_sleep_stress
+rash itching redness,severe,3-7 days,no,low,poor,allergy,skin_allergy
+loss of appetite nausea tiredness,moderate,7+ days,yes,active,good,asthma,gastrointestinal
+back pain fatigue weakness,severe,7+ days,yes,active,good,hypertension,gastrointestinal
+cough throat pain runny nose,severe,7+ days,yes,moderate,poor,asthma,respiratory_ent
+lower abdominal pain urinary discomfort,severe,1-3 days,no,low,poor,allergy,urinary_reproductive
+chronic headache insomnia fatigue,severe,3-7 days,no,moderate,poor,none,neurological_headache
+back pain urinary discomfort fever,moderate,1-3 days,yes,moderate,good,asthma,urinary_reproductive
+migraine light sensitivity nausea,severe,7+ days,no,low,average,allergy,neurological_headache
+frequent urge burning urination high fever,moderate,3-7 days,no,moderate,good,hypertension,urinary_reproductive
+pelvic discomfort frequent urination,mild,7+ days,no,low,poor,none,urinary_reproductive
+muscle cramps body pain low energy,moderate,7+ days,yes,active,poor,hypertension,musculoskeletal
+body aches fever dehydration,moderate,7+ days,no,moderate,good,allergy,general_constitutional
+back pain fatigue weakness,mild,7+ days,yes,active,good,hypertension,general_constitutional
+body aches weakness fever,moderate,3-7 days,no,active,average,diabetes,neurological_headache
+restlessness panic feelings low mood,severe,3-7 days,yes,moderate,good,diabetes,general_constitutional
+skin inflammation rash itching,severe,7+ days,no,moderate,average,asthma,skin_allergy
+urinary discomfort lower stomach pain,severe,1-3 days,no,active,good,diabetes,urinary_reproductive
+itching hives skin irritation,mild,1-3 days,yes,moderate,average,asthma,skin_allergy
+sneezing blocked nose itchy throat,mild,1-3 days,no,active,average,asthma,respiratory_ent
+diarrhea abdominal cramps weakness,severe,7+ days,no,moderate,poor,none,gastrointestinal
+breathing difficulty wheezing cough,severe,3-7 days,yes,moderate,poor,diabetes,respiratory_ent
+constipation abdominal discomfort,moderate,7+ days,no,moderate,good,asthma,gastrointestinal
+vomiting dehydration abdominal pain,mild,3-7 days,no,moderate,good,none,gastrointestinal
+light sensitivity headache insomnia,moderate,3-7 days,no,low,average,diabetes,neurological_headache
+high fever weakness body aches,severe,7+ days,yes,low,good,allergy,general_constitutional
+dizziness fainting weakness,mild,1-3 days,no,active,poor,allergy,neurological_headache
+headache dizziness blurred vision,moderate,1-3 days,no,low,average,hypertension,neurological_headache
+vomiting dehydration abdominal pain,moderate,3-7 days,yes,active,good,hypertension,gastrointestinal
+abdominal discomfort nausea fatigue,moderate,7+ days,yes,moderate,good,none,mental_sleep_stress
+shortness of breath wheezing cough,severe,1-3 days,yes,moderate,poor,diabetes,respiratory_ent
+diarrhea abdominal cramps weakness,severe,7+ days,yes,active,good,asthma,gastrointestinal
+stress chest tightness insomnia,moderate,1-3 days,yes,moderate,good,none,gastrointestinal
+migraine light sensitivity nausea,moderate,1-3 days,yes,active,poor,none,neurological_headache
+weakness low energy insomnia,moderate,1-3 days,yes,low,poor,diabetes,general_constitutional
+migraine light sensitivity nausea,mild,1-3 days,no,low,good,none,neurological_headache
+abdominal discomfort nausea fatigue,moderate,7+ days,yes,moderate,poor,diabetes,gastrointestinal
+nausea dizziness headache,moderate,7+ days,no,active,good,allergy,general_constitutional
+dry cough sore throat runny nose,severe,3-7 days,yes,active,good,allergy,respiratory_ent
+headache dizziness blurred vision,severe,1-3 days,no,low,good,diabetes,neurological_headache
+swelling redness rash,mild,1-3 days,yes,low,poor,asthma,skin_allergy
+dizziness fainting weakness,severe,3-7 days,yes,active,good,none,neurological_headache
+fever cough body aches,mild,3-7 days,yes,low,good,allergy,respiratory_ent
+heartburn bloating stomach discomfort,severe,3-7 days,yes,low,poor,diabetes,gastrointestinal
+tiredness low energy weakness,moderate,1-3 days,yes,moderate,poor,hypertension,general_constitutional
+loss of appetite nausea low energy,mild,1-3 days,no,low,good,allergy,gastrointestinal
+weakness low energy insomnia,severe,1-3 days,no,active,average,none,general_constitutional
+sneezing blocked nose itchy throat,moderate,7+ days,no,low,average,allergy,respiratory_ent
+dizziness weakness poor sleep,moderate,1-3 days,no,low,poor,diabetes,musculoskeletal
+stress anxiety insomnia,mild,3-7 days,yes,moderate,poor,hypertension,mental_sleep_stress
+dry skin irritation redness,mild,7+ days,no,low,average,hypertension,skin_allergy
+chronic headache insomnia low energy,moderate,3-7 days,no,moderate,average,none,neurological_headache
+fever weakness body aches,mild,1-3 days,no,active,good,allergy,general_constitutional
+lower stomach pain urinary discomfort,severe,1-3 days,no,low,average,asthma,urinary_reproductive
+urinary discomfort lower abdominal pain,severe,3-7 days,no,low,good,asthma,urinary_reproductive
+stress fatigue insomnia,moderate,3-7 days,no,low,poor,hypertension,mental_sleep_stress
+high high fever severe tiredness,mild,1-3 days,yes,low,average,asthma,general_constitutional
+loss of appetite nausea tiredness,moderate,1-3 days,no,active,good,hypertension,gastrointestinal
+rash itching redness,moderate,7+ days,yes,moderate,good,diabetes,skin_allergy
+chronic headache insomnia low energy,mild,7+ days,no,low,average,asthma,neurological_headache
+back pain urinary discomfort high fever,severe,1-3 days,no,moderate,average,allergy,urinary_reproductive
+neck pain shoulder pain stiffness,severe,7+ days,no,low,poor,asthma,musculoskeletal
+rash itching redness,severe,3-7 days,yes,low,poor,asthma,skin_allergy
+hives swelling itching,moderate,1-3 days,yes,moderate,average,asthma,skin_allergy
+back pain muscle cramps weakness,severe,7+ days,no,active,good,asthma,musculoskeletal
+light sensitivity headache poor sleep,mild,1-3 days,no,low,average,asthma,neurological_headache
+body aches fever dehydration,mild,7+ days,no,moderate,average,hypertension,general_constitutional
+body aches high fever dehydration,severe,1-3 days,no,low,poor,allergy,general_constitutional
+headache dizziness blurred vision,moderate,3-7 days,yes,low,average,hypertension,neurological_headache
+constipation abdominal discomfort,moderate,7+ days,yes,moderate,poor,allergy,gastrointestinal
+body aches weakness fever,moderate,1-3 days,yes,moderate,average,allergy,skin_allergy
+rash itching redness,moderate,3-7 days,yes,low,good,hypertension,skin_allergy
+back pain muscle cramps weakness,severe,1-3 days,yes,active,average,allergy,musculoskeletal
+vomiting dehydration abdominal pain,mild,7+ days,yes,moderate,average,asthma,gastrointestinal
+joint pain swelling trouble moving,severe,7+ days,no,moderate,poor,diabetes,musculoskeletal
+back pain muscle cramps weakness,mild,3-7 days,no,active,good,diabetes,musculoskeletal
+stress fatigue insomnia,moderate,1-3 days,no,low,poor,diabetes,mental_sleep_stress
+anxiety poor sleep dizziness,moderate,3-7 days,no,low,poor,hypertension,mental_sleep_stress
+rash itching redness,severe,1-3 days,yes,low,poor,hypertension,skin_allergy
+fatigue headache poor sleep,moderate,3-7 days,yes,low,average,diabetes,mental_sleep_stress
+hives swelling itching,moderate,3-7 days,yes,active,poor,asthma,skin_allergy
+anxiety insomnia dizziness,moderate,1-3 days,no,active,average,hypertension,mental_sleep_stress
+burning when passing urine frequent urination,moderate,7+ days,yes,moderate,average,allergy,urinary_reproductive
+poor sleep low energy headache,severe,7+ days,no,active,poor,diabetes,mental_sleep_stress
+pelvic discomfort frequent urination,severe,7+ days,no,moderate,average,asthma,urinary_reproductive
+light sensitivity headache insomnia,moderate,3-7 days,no,moderate,poor,allergy,neurological_headache
+chest tightness cough wheezing,severe,3-7 days,yes,active,poor,none,respiratory_ent
+stress low energy insomnia,moderate,3-7 days,yes,moderate,good,allergy,mental_sleep_stress
+fever headache body aches,moderate,3-7 days,yes,active,poor,allergy,musculoskeletal
+dry cough throat pain runny nose,severe,1-3 days,no,moderate,poor,none,respiratory_ent
+stress chest tightness insomnia,moderate,7+ days,no,active,poor,hypertension,urinary_reproductive
+shoulder pain body stiffness,moderate,3-7 days,yes,low,poor,allergy,musculoskeletal
+dry cough sore throat blocked nose,moderate,3-7 days,yes,active,good,hypertension,respiratory_ent
+sneezing blocked nose itchy throat,moderate,7+ days,yes,low,poor,diabetes,respiratory_ent
+fever headache body aches,severe,7+ days,yes,low,poor,hypertension,gastrointestinal
+body aches weakness fever,moderate,3-7 days,no,low,poor,diabetes,respiratory_ent
+stomach pain nausea vomiting,moderate,7+ days,no,moderate,poor,asthma,gastrointestinal
+abdominal pain nausea vomiting,moderate,7+ days,yes,moderate,average,asthma,gastrointestinal
+chills sweating body aches,severe,1-3 days,no,moderate,average,allergy,general_constitutional
+high fever cough body aches,moderate,3-7 days,no,active,good,asthma,respiratory_ent
+muscle cramps body pain low energy,mild,7+ days,yes,low,good,diabetes,musculoskeletal
+skin inflammation rash itching,moderate,1-3 days,no,low,good,none,skin_allergy
+chills sweating body aches,severe,7+ days,no,low,poor,diabetes,general_constitutional
+pelvic discomfort frequent urination,mild,1-3 days,yes,low,average,allergy,urinary_reproductive
+light sensitivity headache insomnia,moderate,1-3 days,no,active,poor,hypertension,neurological_headache
+breathing difficulty wheezing cough,mild,3-7 days,yes,moderate,good,allergy,respiratory_ent
+lower stomach pain urinary discomfort,severe,1-3 days,no,moderate,average,none,urinary_reproductive
+lower abdominal pain urinary discomfort,severe,3-7 days,yes,low,poor,asthma,urinary_reproductive
+neck pain shoulder pain body stiffness,moderate,1-3 days,no,low,average,allergy,musculoskeletal
+stress low energy insomnia,moderate,1-3 days,no,moderate,average,none,general_constitutional
+panic feelings poor sleep dizziness,mild,3-7 days,yes,low,average,hypertension,mental_sleep_stress
+hives swelling itching,moderate,1-3 days,no,active,average,asthma,skin_allergy
+swelling redness rash,severe,7+ days,no,low,average,asthma,skin_allergy
+chronic headache insomnia low energy,moderate,1-3 days,no,moderate,good,asthma,neurological_headache
+shortness of breath wheezing cough,mild,1-3 days,no,active,poor,none,respiratory_ent
+light sensitivity headache poor sleep,severe,1-3 days,yes,moderate,average,diabetes,neurological_headache
+breathing difficulty wheezing cough,mild,1-3 days,yes,low,good,diabetes,respiratory_ent
+hives swelling itching,severe,1-3 days,no,active,poor,allergy,skin_allergy
+migraine light sensitivity nausea,moderate,1-3 days,no,low,average,diabetes,neurological_headache
+hives swelling itching,mild,3-7 days,no,moderate,average,none,skin_allergy
+high fever weakness body aches,severe,3-7 days,no,active,average,none,general_constitutional
+hives swelling itching,moderate,7+ days,no,active,poor,none,skin_allergy
+headache dizziness blurred vision,mild,7+ days,no,low,good,none,neurological_headache
+high fever cough body aches,moderate,7+ days,yes,low,poor,hypertension,respiratory_ent
+heartburn bloating stomach discomfort,severe,7+ days,yes,active,average,none,gastrointestinal
+chronic headache insomnia fatigue,moderate,1-3 days,yes,active,poor,hypertension,neurological_headache
+loss of appetite nausea tiredness,moderate,1-3 days,yes,moderate,poor,hypertension,gastrointestinal
+chest tightness cough wheezing,severe,3-7 days,no,active,good,hypertension,respiratory_ent
+stress fatigue insomnia,severe,3-7 days,yes,moderate,good,asthma,mental_sleep_stress
+diarrhea abdominal cramps weakness,moderate,3-7 days,yes,low,average,allergy,gastrointestinal
+stomach pain nausea vomiting,moderate,7+ days,no,moderate,good,none,gastrointestinal
+chills sweating body aches,mild,1-3 days,no,moderate,average,hypertension,general_constitutional
+frequent urge burning urination fever,moderate,7+ days,yes,low,poor,allergy,urinary_reproductive
+fever cough body aches,mild,1-3 days,no,moderate,good,diabetes,respiratory_ent
+light sensitivity headache poor sleep,severe,3-7 days,yes,active,poor,hypertension,neurological_headache
+back pain body stiffness limited movement,severe,1-3 days,no,active,good,asthma,musculoskeletal
+low energy low energy weakness,moderate,7+ days,no,active,poor,asthma,general_constitutional
+body aches weakness fever,moderate,7+ days,no,moderate,average,diabetes,respiratory_ent
+nausea dizziness headache,mild,1-3 days,no,moderate,good,hypertension,musculoskeletal
+panic feelings poor sleep dizziness,moderate,1-3 days,yes,low,good,asthma,mental_sleep_stress
+shoulder pain body stiffness,mild,1-3 days,yes,low,poor,none,musculoskeletal
+chest tightness cough wheezing,moderate,3-7 days,no,low,average,allergy,respiratory_ent
+headache poor balance confusion,mild,3-7 days,yes,active,average,none,neurological_headache
+heartburn bloating stomach discomfort,severe,7+ days,yes,active,average,none,gastrointestinal
+urinary discomfort lower stomach pain,mild,7+ days,yes,moderate,poor,asthma,urinary_reproductive
+burning urination frequent urination,mild,1-3 days,no,moderate,poor,diabetes,urinary_reproductive
+insomnia low energy headache,mild,7+ days,yes,low,good,hypertension,mental_sleep_stress
+neck pain shoulder pain body stiffness,severe,1-3 days,no,moderate,average,none,musculoskeletal
+joint pain swelling trouble moving,severe,7+ days,yes,moderate,good,hypertension,musculoskeletal
+muscle cramps body pain fatigue,severe,1-3 days,yes,active,poor,allergy,musculoskeletal
+vomiting dehydration abdominal pain,moderate,3-7 days,no,moderate,average,hypertension,gastrointestinal
+joint pain swelling trouble moving,moderate,7+ days,yes,active,poor,hypertension,musculoskeletal
+high fever severe tiredness,moderate,1-3 days,no,active,good,diabetes,general_constitutional
+headache dizziness blurred vision,severe,3-7 days,yes,active,good,allergy,neurological_headache
+dizziness fainting weakness,severe,1-3 days,no,active,poor,hypertension,neurological_headache
+stress low energy insomnia,moderate,3-7 days,no,moderate,poor,asthma,mental_sleep_stress
+constipation abdominal discomfort,severe,7+ days,no,active,poor,diabetes,gastrointestinal
+stomach pain nausea vomiting,moderate,3-7 days,yes,low,poor,asthma,gastrointestinal
+chills sweating body aches,severe,7+ days,yes,moderate,average,hypertension,general_constitutional
+frequent urge burning urination fever,severe,1-3 days,no,active,average,hypertension,urinary_reproductive
+shortness of breath wheezing cough,mild,7+ days,no,moderate,average,diabetes,respiratory_ent
+urgency to pass urine burning urination high fever,moderate,7+ days,yes,moderate,poor,none,urinary_reproductive
+low mood tiredness restlessness,mild,7+ days,no,active,good,none,mental_sleep_stress
+migraine light sensitivity nausea,mild,3-7 days,yes,moderate,poor,diabetes,neurological_headache
+abdominal pain nausea vomiting,severe,7+ days,yes,active,poor,allergy,gastrointestinal
+migraine light sensitivity nausea,severe,1-3 days,yes,active,poor,diabetes,neurological_headache
+breathing difficulty wheezing cough,severe,7+ days,no,low,average,none,respiratory_ent
+urgency to pass urine burning when passing urine high fever,severe,7+ days,no,low,good,asthma,urinary_reproductive
+sinus pressure headache sore throat,mild,1-3 days,no,low,good,none,respiratory_ent
+sneezing blocked nose itchy throat,severe,1-3 days,no,low,good,asthma,respiratory_ent
+burning when passing urine frequent urination,mild,7+ days,yes,low,good,diabetes,urinary_reproductive
+back pain stiffness limited movement,moderate,1-3 days,no,low,average,hypertension,musculoskeletal
+lower stomach pain urinary discomfort,moderate,1-3 days,no,low,poor,diabetes,urinary_reproductive
+skin inflammation rash itching,mild,1-3 days,no,low,poor,none,skin_allergy
+high high fever severe tiredness,severe,7+ days,yes,moderate,average,asthma,general_constitutional
+dizziness fainting weakness,moderate,7+ days,yes,active,good,asthma,neurological_headache
+cough throat pain blocked nose,mild,3-7 days,no,moderate,good,hypertension,respiratory_ent
+low mood fatigue restlessness,severe,1-3 days,no,active,average,allergy,mental_sleep_stress
+low mood tiredness restlessness,severe,7+ days,no,moderate,average,hypertension,mental_sleep_stress
+urinary discomfort lower abdominal pain,moderate,7+ days,no,moderate,average,none,urinary_reproductive
+fever cough body aches,moderate,7+ days,yes,active,poor,asthma,respiratory_ent
+burning when passing urine frequent urination,moderate,1-3 days,yes,moderate,poor,asthma,urinary_reproductive
+back pain urinary discomfort fever,mild,3-7 days,yes,moderate,poor,allergy,urinary_reproductive
+body aches weakness fever,moderate,7+ days,yes,moderate,poor,asthma,mental_sleep_stress
+stress tiredness insomnia,moderate,3-7 days,yes,moderate,average,asthma,mental_sleep_stress
+body aches weakness fever,severe,7+ days,no,moderate,good,allergy,general_constitutional
+back pain urinary discomfort fever,mild,7+ days,no,active,good,none,urinary_reproductive
+loss of appetite nausea tiredness,severe,7+ days,no,active,average,asthma,gastrointestinal
+itching hives skin irritation,severe,1-3 days,no,low,poor,none,skin_allergy
+abdominal pain nausea vomiting,mild,7+ days,yes,low,average,hypertension,gastrointestinal
+nausea dizziness headache,moderate,3-7 days,no,active,average,none,general_constitutional
+tiredness low energy weakness,severe,3-7 days,yes,moderate,good,allergy,general_constitutional
+panic feelings poor sleep dizziness,mild,7+ days,yes,active,good,asthma,mental_sleep_stress
+migraine light sensitivity nausea,moderate,1-3 days,no,moderate,average,hypertension,neurological_headache
+high fever cough body aches,mild,7+ days,yes,low,poor,diabetes,respiratory_ent
+sinus pressure headache sore throat,severe,7+ days,no,low,poor,allergy,respiratory_ent
+body aches fever dehydration,severe,7+ days,no,low,good,none,general_constitutional
+chest tightness cough wheezing,severe,7+ days,no,active,average,diabetes,respiratory_ent
+hives swelling itching,moderate,1-3 days,yes,active,average,none,skin_allergy
+stomach pain nausea vomiting,mild,3-7 days,yes,moderate,average,none,gastrointestinal
+chest tightness cough wheezing,moderate,3-7 days,yes,low,poor,asthma,respiratory_ent
+high high fever severe fatigue,severe,1-3 days,no,low,good,hypertension,general_constitutional
+skin inflammation rash itching,moderate,1-3 days,yes,active,good,none,skin_allergy
+body aches weakness fever,severe,1-3 days,no,low,good,allergy,general_constitutional
+constipation abdominal discomfort,mild,1-3 days,yes,moderate,good,hypertension,gastrointestinal
+joint pain swelling trouble moving,moderate,1-3 days,yes,low,poor,allergy,musculoskeletal
+back pain muscle cramps weakness,mild,1-3 days,yes,active,good,diabetes,musculoskeletal
+vomiting dehydration stomach pain,mild,3-7 days,no,low,good,allergy,gastrointestinal
+frequent urge burning when passing urine high fever,moderate,7+ days,yes,active,poor,allergy,urinary_reproductive
+headache dizziness blurred vision,mild,1-3 days,no,moderate,good,diabetes,neurological_headache
+breathing difficulty wheezing cough,mild,7+ days,yes,moderate,good,asthma,respiratory_ent
+sinus pressure headache sore throat,mild,3-7 days,yes,low,average,none,respiratory_ent
+stomach pain nausea vomiting,moderate,1-3 days,no,low,good,asthma,gastrointestinal
+headache poor balance confusion,mild,1-3 days,yes,moderate,average,none,neurological_headache
+shortness of breath wheezing cough,severe,7+ days,yes,active,good,allergy,respiratory_ent
+hives swelling itching,mild,1-3 days,yes,active,good,none,skin_allergy
+shoulder pain body body stiffness,mild,3-7 days,no,low,poor,asthma,musculoskeletal
+itching hives skin irritation,severe,1-3 days,yes,moderate,average,hypertension,skin_allergy
+lower abdominal pain urinary discomfort,moderate,1-3 days,no,active,good,hypertension,urinary_reproductive
+itching hives skin irritation,severe,3-7 days,no,active,average,hypertension,skin_allergy
+back pain muscle cramps weakness,moderate,1-3 days,yes,moderate,good,hypertension,musculoskeletal
+lower stomach pain urinary discomfort,mild,7+ days,no,moderate,average,diabetes,urinary_reproductive
+stress chest tightness insomnia,mild,1-3 days,yes,moderate,average,none,general_constitutional
+diarrhea abdominal cramps weakness,severe,7+ days,yes,active,average,allergy,gastrointestinal
+stomach pain nausea vomiting,severe,7+ days,yes,moderate,good,asthma,gastrointestinal
+urinary discomfort lower abdominal pain,severe,1-3 days,yes,moderate,average,allergy,urinary_reproductive
+headache dizziness blurred vision,severe,1-3 days,yes,moderate,average,diabetes,neurological_headache
+chronic headache insomnia low energy,mild,7+ days,no,active,average,hypertension,neurological_headache
+headache poor balance confusion,severe,1-3 days,no,low,poor,diabetes,neurological_headache
+body aches fever dehydration,moderate,7+ days,no,moderate,average,diabetes,general_constitutional
+pelvic discomfort frequent urination,moderate,1-3 days,no,active,average,none,urinary_reproductive
+chills sweating body aches,severe,3-7 days,no,active,good,allergy,general_constitutional
+chest tightness cough wheezing,severe,1-3 days,no,active,average,none,respiratory_ent
+pelvic discomfort frequent urination,mild,1-3 days,no,moderate,average,allergy,urinary_reproductive
+headache dizziness blurred vision,severe,3-7 days,yes,moderate,poor,asthma,neurological_headache
+pelvic discomfort frequent urination,mild,3-7 days,yes,moderate,poor,diabetes,urinary_reproductive
+stress chest tightness insomnia,severe,3-7 days,yes,moderate,average,asthma,neurological_headache
+high fever weakness body aches,severe,1-3 days,no,moderate,good,none,general_constitutional
+heartburn bloating stomach discomfort,mild,3-7 days,yes,low,average,allergy,gastrointestinal
+pelvic discomfort frequent urination,mild,3-7 days,no,active,poor,diabetes,urinary_reproductive
+cough throat pain runny nose,moderate,1-3 days,no,moderate,good,asthma,respiratory_ent
+dry skin irritation redness,mild,1-3 days,no,moderate,good,allergy,skin_allergy
+back pain urinary discomfort fever,severe,1-3 days,yes,active,poor,diabetes,urinary_reproductive
+high fever weakness body aches,moderate,3-7 days,no,low,poor,hypertension,general_constitutional
+vomiting dehydration abdominal pain,mild,7+ days,no,low,average,none,gastrointestinal
+hives swelling itching,mild,3-7 days,no,low,average,allergy,skin_allergy
+muscle cramps body pain low energy,mild,1-3 days,yes,low,good,none,musculoskeletal
+stress tiredness insomnia,mild,7+ days,no,low,good,hypertension,mental_sleep_stress
+fever headache body aches,moderate,7+ days,yes,moderate,poor,diabetes,general_constitutional
+insomnia low energy headache,moderate,7+ days,no,active,poor,diabetes,mental_sleep_stress
+vomiting dehydration stomach pain,mild,7+ days,no,active,good,diabetes,gastrointestinal
+burning when passing urine frequent urination,severe,3-7 days,no,active,average,diabetes,urinary_reproductive
+back pain stiffness limited movement,moderate,3-7 days,no,moderate,average,allergy,musculoskeletal
+lower stomach pain urinary discomfort,mild,1-3 days,yes,moderate,poor,asthma,skin_allergy
+joint pain swelling trouble moving,severe,7+ days,no,moderate,poor,diabetes,musculoskeletal
+restlessness panic feelings low mood,severe,1-3 days,yes,moderate,good,hypertension,mental_sleep_stress
+low energy low energy weakness,severe,3-7 days,no,low,poor,diabetes,general_constitutional
+back pain muscle cramps weakness,moderate,7+ days,yes,moderate,poor,allergy,musculoskeletal
+insomnia tiredness headache,mild,1-3 days,no,active,average,allergy,mental_sleep_stress
+lower stomach pain urinary discomfort,moderate,3-7 days,no,active,poor,asthma,urinary_reproductive
+dizziness weakness poor sleep,mild,1-3 days,no,low,poor,allergy,respiratory_ent
+stress panic feelings insomnia,moderate,3-7 days,no,low,good,none,mental_sleep_stress
+dizziness weakness poor sleep,severe,7+ days,yes,active,average,hypertension,general_constitutional
+joint pain swelling trouble moving,mild,7+ days,no,moderate,good,none,musculoskeletal
+back pain body stiffness limited movement,mild,7+ days,no,active,poor,hypertension,musculoskeletal
+itching hives skin irritation,mild,1-3 days,yes,active,poor,allergy,skin_allergy
+weakness low energy poor sleep,mild,3-7 days,yes,active,poor,allergy,general_constitutional
+chills sweating body aches,moderate,1-3 days,no,moderate,average,none,general_constitutional
+panic feelings poor sleep dizziness,mild,7+ days,yes,active,good,allergy,mental_sleep_stress
+fever headache body aches,severe,7+ days,no,moderate,average,diabetes,mental_sleep_stress
+back pain fatigue weakness,severe,1-3 days,yes,active,poor,diabetes,skin_allergy
+shoulder pain body body stiffness,severe,7+ days,no,moderate,good,allergy,musculoskeletal
+body aches fever dehydration,severe,1-3 days,yes,moderate,average,none,general_constitutional
+shoulder pain body body stiffness,severe,1-3 days,no,moderate,average,diabetes,musculoskeletal
+low mood tiredness restlessness,severe,3-7 days,yes,moderate,poor,allergy,mental_sleep_stress
+sneezing blocked nose itchy throat,severe,3-7 days,no,low,good,hypertension,respiratory_ent
+cough throat pain runny nose,mild,7+ days,yes,active,poor,none,respiratory_ent
+high high fever severe low energy,severe,3-7 days,no,active,poor,none,general_constitutional
+joint pain swelling trouble moving,severe,1-3 days,no,moderate,poor,hypertension,musculoskeletal
+burning urination frequent urination,severe,3-7 days,yes,active,poor,diabetes,urinary_reproductive
+swelling redness rash,mild,3-7 days,yes,moderate,good,allergy,skin_allergy
+weakness low energy poor sleep,mild,1-3 days,yes,moderate,good,hypertension,general_constitutional
+panic feelings poor sleep dizziness,mild,3-7 days,yes,moderate,good,allergy,mental_sleep_stress
+urinary discomfort lower stomach pain,severe,3-7 days,yes,low,good,hypertension,urinary_reproductive
+nausea dizziness headache,mild,7+ days,no,active,good,allergy,general_constitutional
+stress anxiety poor sleep,mild,7+ days,no,active,good,allergy,mental_sleep_stress
+stress chest tightness insomnia,severe,3-7 days,no,low,poor,allergy,musculoskeletal
+heartburn bloating stomach discomfort,moderate,3-7 days,no,moderate,average,hypertension,gastrointestinal
+stress panic feelings poor sleep,mild,3-7 days,yes,low,poor,allergy,mental_sleep_stress
+dizziness fainting weakness,moderate,1-3 days,no,moderate,average,diabetes,neurological_headache
+fever headache body aches,mild,7+ days,yes,low,good,asthma,musculoskeletal
+abdominal discomfort nausea fatigue,mild,1-3 days,yes,low,average,hypertension,musculoskeletal
+fatigue low energy weakness,moderate,7+ days,yes,low,good,allergy,general_constitutional
+back pain fatigue weakness,moderate,7+ days,no,low,good,hypertension,respiratory_ent
+shoulder pain body body stiffness,severe,1-3 days,yes,active,average,asthma,musculoskeletal
+itching hives skin irritation,severe,1-3 days,yes,active,good,allergy,skin_allergy
+chest tightness cough wheezing,mild,3-7 days,yes,moderate,good,none,respiratory_ent
+anxiety poor sleep dizziness,mild,1-3 days,yes,low,good,diabetes,mental_sleep_stress
+sinus pressure headache sore throat,mild,1-3 days,yes,active,average,allergy,respiratory_ent
+swelling redness rash,mild,1-3 days,yes,low,poor,allergy,skin_allergy
+shoulder pain body stiffness,severe,1-3 days,yes,low,average,asthma,musculoskeletal
+migraine light sensitivity nausea,mild,1-3 days,yes,moderate,poor,diabetes,neurological_headache
+poor sleep low energy headache,moderate,1-3 days,yes,moderate,poor,diabetes,mental_sleep_stress
+chronic headache insomnia fatigue,moderate,3-7 days,no,low,average,none,neurological_headache
+light sensitivity headache insomnia,moderate,3-7 days,no,active,average,allergy,neurological_headache
+high fever severe fatigue,mild,1-3 days,no,moderate,good,asthma,general_constitutional
+shortness of breath wheezing cough,mild,7+ days,yes,moderate,poor,diabetes,respiratory_ent
+abdominal discomfort nausea fatigue,mild,1-3 days,no,low,poor,allergy,respiratory_ent
+light sensitivity headache poor sleep,mild,1-3 days,yes,moderate,average,asthma,neurological_headache
+neck pain shoulder pain body stiffness,mild,1-3 days,yes,moderate,good,none,musculoskeletal
+dizziness fainting weakness,moderate,7+ days,no,active,poor,allergy,neurological_headache
+low mood fatigue restlessness,severe,3-7 days,yes,low,poor,none,mental_sleep_stress
+dry skin irritation redness,severe,1-3 days,yes,moderate,poor,none,skin_allergy
+abdominal discomfort nausea fatigue,mild,7+ days,no,moderate,good,allergy,skin_allergy
+high high fever severe tiredness,moderate,3-7 days,yes,low,good,asthma,general_constitutional
+back pain urinary discomfort high fever,severe,7+ days,yes,active,good,none,urinary_reproductive
+heartburn bloating stomach discomfort,moderate,7+ days,no,active,good,none,gastrointestinal
+urgency to pass urine burning urination high fever,moderate,1-3 days,yes,moderate,good,asthma,urinary_reproductive
+high fever severe fatigue,severe,3-7 days,yes,low,good,none,general_constitutional
+dizziness weakness poor sleep,mild,7+ days,no,moderate,poor,hypertension,neurological_headache
+tiredness low energy weakness,severe,7+ days,no,active,good,asthma,general_constitutional
+urgency to pass urine burning urination high fever,moderate,7+ days,no,active,average,hypertension,urinary_reproductive
+constipation abdominal discomfort,moderate,1-3 days,yes,active,average,hypertension,gastrointestinal
+headache poor balance confusion,mild,3-7 days,no,low,average,diabetes,neurological_headache
+fatigue headache poor sleep,moderate,1-3 days,yes,active,poor,diabetes,mental_sleep_stress
+cough throat pain blocked nose,moderate,3-7 days,no,moderate,average,allergy,respiratory_ent
+swelling redness rash,mild,7+ days,yes,active,poor,hypertension,skin_allergy
+diarrhea abdominal cramps weakness,mild,3-7 days,no,moderate,good,diabetes,gastrointestinal
+headache dizziness blurred vision,severe,1-3 days,yes,low,average,diabetes,neurological_headache
+stress anxiety poor sleep,severe,1-3 days,yes,moderate,average,asthma,mental_sleep_stress
+muscle cramps body pain tiredness,severe,7+ days,yes,low,average,none,musculoskeletal
+back pain urinary discomfort fever,mild,7+ days,yes,moderate,good,asthma,urinary_reproductive
+nausea dizziness headache,severe,3-7 days,yes,low,average,diabetes,skin_allergy
+diarrhea abdominal cramps weakness,severe,3-7 days,no,low,poor,asthma,gastrointestinal
+pelvic discomfort frequent urination,severe,3-7 days,yes,active,good,asthma,urinary_reproductive
+shoulder pain body body stiffness,moderate,1-3 days,no,low,average,hypertension,musculoskeletal
+muscle cramps body pain low energy,severe,7+ days,no,active,poor,allergy,musculoskeletal
+stress chest tightness insomnia,mild,3-7 days,yes,low,average,hypertension,musculoskeletal
+pelvic discomfort frequent urination,moderate,3-7 days,no,active,good,diabetes,urinary_reproductive
+back pain stiffness limited movement,mild,1-3 days,no,moderate,average,hypertension,mental_sleep_stress
+insomnia low energy headache,mild,1-3 days,no,moderate,poor,none,mental_sleep_stress
+insomnia fatigue headache,severe,1-3 days,no,active,average,diabetes,mental_sleep_stress
+high fever weakness body aches,moderate,7+ days,yes,low,poor,hypertension,general_constitutional
+sinus pressure headache throat pain,severe,3-7 days,no,active,poor,diabetes,respiratory_ent
+fever cough body aches,moderate,1-3 days,yes,active,poor,allergy,respiratory_ent
+diarrhea abdominal cramps weakness,severe,7+ days,yes,moderate,good,hypertension,gastrointestinal
+vomiting dehydration abdominal pain,moderate,3-7 days,yes,moderate,good,hypertension,gastrointestinal
+body aches fever dehydration,severe,1-3 days,no,moderate,good,allergy,general_constitutional
+light sensitivity headache insomnia,moderate,3-7 days,yes,low,good,none,neurological_headache
+chronic headache insomnia low energy,moderate,7+ days,no,active,poor,hypertension,neurological_headache
+body aches fever dehydration,mild,1-3 days,no,active,poor,asthma,general_constitutional
+constipation abdominal discomfort,moderate,7+ days,no,moderate,poor,hypertension,gastrointestinal
+back pain muscle cramps weakness,severe,3-7 days,yes,low,average,allergy,neurological_headache
+back pain muscle cramps weakness,moderate,3-7 days,yes,low,average,diabetes,musculoskeletal
+restlessness panic feelings low mood,mild,3-7 days,no,active,average,asthma,mental_sleep_stress
+constipation abdominal discomfort,moderate,1-3 days,yes,active,average,asthma,gastrointestinal
+chest tightness cough wheezing,moderate,3-7 days,no,moderate,poor,none,respiratory_ent
+fever cough body aches,mild,7+ days,no,low,poor,none,respiratory_ent
+skin rash itching redness,severe,1-3 days,yes,active,average,allergy,skin_allergy
+dry skin irritation redness,severe,7+ days,yes,moderate,poor,allergy,skin_allergy
+neck pain shoulder pain body stiffness,mild,3-7 days,yes,moderate,good,none,musculoskeletal
+swelling redness rash,mild,1-3 days,no,low,good,diabetes,skin_allergy
+weakness low energy poor sleep,mild,3-7 days,no,active,average,allergy,general_constitutional
+poor sleep low energy headache,moderate,3-7 days,no,active,poor,hypertension,mental_sleep_stress
+dizziness fainting weakness,severe,7+ days,yes,moderate,poor,diabetes,neurological_headache
+rash itching redness,mild,1-3 days,no,active,average,diabetes,skin_allergy
+insomnia fatigue headache,mild,3-7 days,yes,moderate,poor,allergy,mental_sleep_stress
+sneezing runny nose itchy throat,severe,1-3 days,no,moderate,poor,diabetes,respiratory_ent
+dizziness weakness poor sleep,severe,7+ days,no,active,average,diabetes,gastrointestinal
+fever headache body aches,mild,7+ days,yes,low,poor,allergy,respiratory_ent
+neck pain shoulder pain body stiffness,mild,7+ days,yes,active,good,diabetes,musculoskeletal
+high fever severe low energy,severe,3-7 days,no,moderate,good,none,general_constitutional
+sneezing runny nose itchy throat,moderate,1-3 days,no,moderate,poor,none,respiratory_ent
+skin inflammation rash itching,severe,1-3 days,no,moderate,average,allergy,skin_allergy
+dizziness fainting weakness,moderate,3-7 days,no,active,average,diabetes,neurological_headache
+headache dizziness blurred vision,moderate,7+ days,no,active,average,hypertension,neurological_headache
+abdominal discomfort nausea fatigue,mild,7+ days,no,moderate,good,allergy,mental_sleep_stress
+constipation abdominal discomfort,mild,3-7 days,no,active,good,asthma,gastrointestinal
+high fever weakness body aches,mild,1-3 days,no,moderate,poor,asthma,respiratory_ent
+sneezing runny nose itchy throat,mild,1-3 days,yes,active,poor,asthma,respiratory_ent
+swelling redness rash,mild,3-7 days,no,low,poor,diabetes,skin_allergy
+stress fatigue insomnia,moderate,1-3 days,yes,moderate,good,diabetes,mental_sleep_stress
+poor sleep tiredness headache,moderate,3-7 days,yes,moderate,poor,allergy,mental_sleep_stress
+rash itching redness,moderate,7+ days,no,moderate,poor,allergy,skin_allergy
+dizziness weakness poor sleep,severe,1-3 days,yes,active,average,asthma,gastrointestinal
+stress panic feelings insomnia,severe,3-7 days,no,low,good,asthma,mental_sleep_stress
+dry skin irritation redness,mild,7+ days,no,active,good,allergy,skin_allergy
+back pain body stiffness limited movement,mild,7+ days,no,low,good,none,musculoskeletal
+chronic headache insomnia fatigue,severe,3-7 days,yes,moderate,average,asthma,neurological_headache
+tiredness low energy weakness,mild,1-3 days,no,active,good,none,general_constitutional
+high fever severe low energy,mild,1-3 days,no,moderate,good,allergy,general_constitutional
+dizziness weakness poor sleep,severe,7+ days,no,low,average,asthma,musculoskeletal
+burning when passing urine frequent urination,severe,7+ days,yes,active,poor,hypertension,urinary_reproductive
+low mood fatigue restlessness,moderate,3-7 days,no,moderate,good,none,mental_sleep_stress
+high fever cough body aches,severe,3-7 days,yes,moderate,poor,allergy,respiratory_ent
+back pain fatigue weakness,severe,3-7 days,yes,moderate,average,hypertension,mental_sleep_stress
+vomiting dehydration abdominal pain,severe,7+ days,yes,active,good,hypertension,gastrointestinal
+diarrhea abdominal cramps weakness,mild,7+ days,yes,moderate,good,allergy,gastrointestinal
+headache poor balance confusion,mild,1-3 days,yes,low,average,diabetes,neurological_headache
+swelling redness rash,moderate,3-7 days,no,low,average,diabetes,skin_allergy
+sneezing blocked nose itchy throat,moderate,3-7 days,no,low,poor,allergy,respiratory_ent
+burning urination frequent urination,mild,3-7 days,yes,moderate,poor,diabetes,urinary_reproductive
+back pain urinary discomfort high fever,severe,1-3 days,no,moderate,poor,asthma,urinary_reproductive
+chills sweating body aches,moderate,7+ days,no,active,average,asthma,general_constitutional
+stress anxiety poor sleep,moderate,7+ days,yes,low,good,hypertension,mental_sleep_stress
+dizziness fainting weakness,mild,3-7 days,no,low,average,diabetes,neurological_headache
+swelling redness rash,mild,3-7 days,yes,moderate,good,none,skin_allergy
+fatigue low energy weakness,severe,3-7 days,yes,low,average,allergy,general_constitutional
+headache poor balance confusion,moderate,1-3 days,yes,moderate,good,hypertension,neurological_headache
+light sensitivity headache poor sleep,moderate,3-7 days,yes,low,good,asthma,neurological_headache
+loss of appetite nausea tiredness,moderate,3-7 days,yes,active,average,asthma,gastrointestinal
+stress chest tightness insomnia,moderate,3-7 days,yes,moderate,good,asthma,skin_allergy
+sneezing runny nose itchy throat,moderate,3-7 days,no,moderate,average,hypertension,respiratory_ent
+abdominal pain nausea vomiting,mild,1-3 days,no,moderate,good,diabetes,gastrointestinal

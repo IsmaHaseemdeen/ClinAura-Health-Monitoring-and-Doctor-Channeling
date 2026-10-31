@@ -1,0 +1,79 @@
+{
+  "accuracy": 0.8824,
+  "macro_f1": 0.8835,
+  "classification_report": {
+    "gastrointestinal": {
+      "precision": 0.7894736842105263,
+      "recall": 0.9375,
+      "f1-score": 0.8571428571428571,
+      "support": 16.0
+    },
+    "general_constitutional": {
+      "precision": 0.7142857142857143,
+      "recall": 1.0,
+      "f1-score": 0.8333333333333334,
+      "support": 15.0
+    },
+    "mental_sleep_stress": {
+      "precision": 0.8571428571428571,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.8571428571428571,
+      "support": 14.0
+    },
+    "musculoskeletal": {
+      "precision": 0.9090909090909091,
+      "recall": 0.7142857142857143,
+      "f1-score": 0.8,
+      "support": 14.0
+    },
+    "neurological_headache": {
+      "precision": 1.0,
+      "recall": 0.8235294117647058,
+      "f1-score": 0.9032258064516129,
+      "support": 17.0
+    },
+    "respiratory_ent": {
+      "precision": 1.0,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9655172413793104,
+      "support": 15.0
+    },
+    "skin_allergy": {
+      "precision": 0.9230769230769231,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.8888888888888888,
+      "support": 14.0
+    },
+    "urinary_reproductive": {
+      "precision": 1.0,
+      "recall": 0.9285714285714286,
+      "f1-score": 0.9629629629629629,
+      "support": 14.0
+    },
+    "accuracy": 0.8823529411764706,
+    "macro avg": {
+      "precision": 0.8991337609758663,
+      "recall": 0.881438200280112,
+      "f1-score": 0.8835267434127277,
+      "support": 119.0
+    },
+    "weighted avg": {
+      "precision": 0.8991278513613764,
+      "recall": 0.8823529411764706,
+      "f1-score": 0.8838471342065439,
+      "support": 119.0
+    }
+  },
+  "classes": [
+    "gastrointestinal",
+    "general_constitutional",
+    "mental_sleep_stress",
+    "musculoskeletal",
+    "neurological_headache",
+    "respiratory_ent",
+    "skin_allergy",
+    "urinary_reproductive"
+  ],
+  "dataset_size": 119,
+  "model_type": "Logistic Regression with TF-IDF and categorical context features"
+}
