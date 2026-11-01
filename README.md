@@ -204,47 +204,117 @@ The design process includes:
 
 ---
 
+
 ## 8. Application Screenshots
 
-### Public Homepage
+The following screenshots showcase the ClinAura user interfaces, healthcare monitoring features, appointment workflows, and administrative analytics documented in the academic project.
 
-![ClinAura Homepage](screenshots/homepage.png)
+### 8.1 Public Landing Page
 
-### Patient Dashboard
+The public-facing website introduces ClinAura, its purpose, features, and registration and login options.
 
-![Patient Dashboard](screenshots/patient-dashboard.png)
+![ClinAura Landing Page 1](screenshots/LandingPage1.jpg)
 
-### AI Symptom Checker
+![ClinAura Landing Page 2](screenshots/LandingPage2.jpg)
 
-![AI Symptom Checker](screenshots/symptom-checker.png)
+![ClinAura Landing Page 3](screenshots/LandingPage3.jpg)
 
-### Symptom Prediction Results
+![ClinAura Landing Page 4](screenshots/LandingPage4.jpg)
 
-![Symptom Prediction Results](screenshots/symptom-results.png)
+![ClinAura Landing Page 5](screenshots/LandingPage5.jpg)
 
-### Medical Document Management
+![ClinAura Landing Page 6](screenshots/LandingPage6.jpg)
 
-![Health Document Management](screenshots/health-documents.png)
+![ClinAura Landing Page 7](screenshots/LandingPage7.jpg)
 
-### Appointment Booking
+### 8.2 Patient Dashboard
 
-![Doctor Appointment Booking](screenshots/appointment-booking.png)
+The patient module provides interfaces for personal health monitoring, profile management, medical document access, symptom tracking, and appointment management.
 
-### Doctor Dashboard
+![Patient Dashboard 1](screenshots/PatientDashboard1.jpg)
 
-![Doctor Dashboard](screenshots/doctor-dashboard.png)
+![Patient Dashboard 2](screenshots/PatientDashboard2.jpg)
 
-### Administrator Dashboard
+![Patient Dashboard 3](screenshots/PatientDashboard3.jpg)
 
-![Administrator Dashboard](screenshots/admin-dashboard.png)
+![Patient Dashboard 4](screenshots/PatientDashboard4.jpg)
 
-### Administrative Analytics
+### 8.3 AI-Assisted Symptom Checker
 
-![Administrative Analytics](screenshots/admin-analytics.png)
+ClinAura includes a structured symptom-checking interface supported by a Python-based Logistic Regression model.
 
-These screenshots are drawn from the documented academic implementation and demonstrate its interface designs and reported development outcomes.
+The system generates category-based advisory outputs rather than medical diagnoses.
+
+![AI Symptom Checker 1](screenshots/AISymptomChecker1.jpg)
+
+![AI Symptom Checker 2](screenshots/AISymptomChecker2.jpg)
+
+### 8.4 AI Symptom Prediction Results
+
+The symptom checker presents predicted health-concern categories, probability values, and risk indicators.
+
+These results are intended for educational demonstration and are not clinically validated.
+
+![AI Symptom Checker Result 1](screenshots/AISymptomCheckerResults1.jpg)
+
+![AI Symptom Checker Result 2](screenshots/AISymptomCheckerResults2.jpg)
+
+![AI Symptom Checker Result 3](screenshots/AISymptomCheckerResults3.jpg)
+
+### 8.5 Health Document Management
+
+The health document module allows patients to organize uploaded medical records and associated information.
+
+![Health Documents 1](screenshots/HealthDocumentsPage1.jpg)
+
+![Health Documents 2](screenshots/HealthDocumentsPage2.jpg)
+
+### 8.6 Doctor Appointment Booking
+
+The appointment booking interface supports General Physician consultation requests and appointment status tracking.
+
+![Appointment Booking 1](screenshots/AppointmentBooking1.jpg)
+
+![Appointment Booking 2](screenshots/AppointmentBooking2.jpg)
+
+![Appointment Booking 3](screenshots/AppointmentBooking3.jpg)
+
+### 8.7 Doctor Dashboard
+
+The doctor module provides interfaces for managing appointments, accessing authorized patient information, and coordinating consultation workflows.
+
+![Doctor Dashboard 1](screenshots/DoctorDashboard1.jpg)
+
+![Doctor Dashboard 2](screenshots/DoctorDashboard2.jpg)
+
+### 8.8 Administrator Dashboard
+
+Administrators can access operational interfaces for managing doctors, monitoring appointments, handling inquiries, and reviewing healthcare-related system information.
+
+![Admin Dashboard 1](screenshots/AdminDashboard1.jpg)
+
+![Admin Dashboard 2](screenshots/AdminDashboard2.jpg)
+
+### 8.9 Administrative Operational Analytics
+
+ClinAura's documented administrative analytics provide insights into system activity and operational workflows.
+
+![Operational Analytics Dashboard 1](screenshots/AdminAnalytics-OperationalDashboard1.jpg)
+
+![Operational Analytics Dashboard 2](screenshots/AdminAnalytics-OperationalDashboard2.jpg)
+
+### 8.10 Symptom-Based Analytics
+
+The system documentation also includes symptom-related dashboards for viewing aggregated monitoring patterns.
+
+![Symptom Analytics Dashboard 1](screenshots/AdminAnalytics-Symptom-basedDashboard1.jpg)
+
+![Symptom Analytics Dashboard 2](screenshots/AdminAnalytics-Symptom-basedDashboard2.jpg)
 
 ---
+
+**Disclaimer:** The screenshots demonstrate interfaces and results from the academic project. ClinAura is not a clinically validated medical system, and its predictive outputs must not be used for diagnosis or treatment.
+
 
 ## 9. Project Management
 
